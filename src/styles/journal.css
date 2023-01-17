@@ -1,0 +1,68 @@
+.journal{
+    padding: 50px 0;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.journal-desc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+.Journal-examples{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.journal-cart-image >img {
+    width: 350px;
+    height: 350px;
+}
+@media only screen and (max-width: 1000px) {
+    .journal{
+        background-color: #eee;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+    }
+    .journal-cart-image >img {
+        width: 250px;
+        height: 250px;
+    }
+  }
+@media only screen and (max-width: 864px) {
+    .journal{
+        background-color: #eee;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+    }
+    .journal-cart-image >img {
+        width: 250px;
+        height: 250px;
+    }
+  }
+.readBtn {
+    border: none;
+    background-color: #252525;
+    width: 11rem;
+    height: 3rem;
+    color: white;
+    transition: 350ms ease;
+    /* left: 1.8rem;
+    top: 3rem;
+    position: relative; */
+}
+
+.readBtn:hover {
+    background-color: #173f35;
+    color: rgb(255, 255, 255);
+}

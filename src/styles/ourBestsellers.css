@@ -1,0 +1,26 @@
+.products-container{
+    width: 90%;
+    /* background-color: rebeccapurple; */
+    margin: auto;
+}
+.ourBestsellers-products {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: center;
+}
+.ourBestCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.card{ 
+    transition: all 0.3s;
+    box-shadow:0 20px 25px -5px rgba(5, 5, 5, 0.1),0 8px 10px -6px rgba(0,0,0,.1);
+}
+.card:hover {
+    transform: scale(1.08);
+}

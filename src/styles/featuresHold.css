@@ -1,0 +1,29 @@
+.u20Features {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.u20Features-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.u20Features-item img {
+    width: 60px;
+}
+.u20Features-item p {
+    font-size: 25px;
+}
+
+.u20Features-item-icon {
+    font-size: 50px;
+}
+@media only screen and (max-width: 800px) {
+    .u20Features {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .u20Features-item{
+        width: 300px;
+    }
+}

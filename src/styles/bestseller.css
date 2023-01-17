@@ -1,0 +1,12 @@
+.bestseller{
+    display: flex !important;
+    flex-direction: row !important;
+    position: absolute;
+    top: 2.5rem;
+    gap: 2rem !important;
+    left: 4rem;
+}
+.bestseller p {
+    text-align: center;
+    margin: 5px 0;
+}

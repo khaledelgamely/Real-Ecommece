@@ -1,0 +1,117 @@
+.body{
+    display: flex;
+    margin-top: 20px;
+    gap: 60px;
+}
+.bNd{
+    display: flex;
+    gap: 30px;
+}
+.body p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.bodyTypeHold {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+    justify-content: space-around;
+    gap: 20px;
+}
+.bodyAndHand >p{
+    color: #808080d6;
+}
+.fe{
+    font-weight: 700;
+    font-size: 22px;
+}
+.transition {
+    transform: translateY(-20px);
+    transition: all 300ms ease-out;
+    opacity: 1;
+}
+
+.transition2 {
+    transform: translateY(-20px);
+    transition: all 300ms ease-out;
+    opacity: 1;
+}
+.transition3 {
+    transform: translateY(-20px);
+    transition: all 300ms ease-out;
+    opacity: 1;
+}
+.transition4 {
+    transform: translateY(-20px);
+    transition: all 300ms ease-out;
+    opacity: 1;
+}
+/* .bodyTypeIndividual {
+width: 170px;
+} */
+.bodyTypeIndividual p{
+font-size: 15px;
+margin: 5px;
+}
+.bodyTypeIndividual img{
+width: 170px;
+    height: 140px;
+}
+.hairImageHold{
+    width: 180px;
+}
+.hairImageHold img{
+    width: 100%;
+}
+.hairCategory>p{
+    color: #808080d6;
+}
+.hairState>p{
+    color: #808080d6;
+}
+.TravelStoreHold{
+    display: flex;
+    gap: 30px;
+}
+.TravelIndividual{
+    width: 180px;
+}
+.newContent{
+    display: flex;
+    gap: 30px;
+
+}
+.newTypeHold{
+    display: flex;
+    gap: 30px;
+}
+.newCategoryHold>p{
+    color: #808080d6;
+
+}
+
+/* UNDERLINE EFFECT */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #031D44;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: -10px;
+    left: 0;
+    background-color:#031D44;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

@@ -1,0 +1,24 @@
+
+.carousel-contain img{
+    width: 100vw;
+    height: 100%;
+}
+.slick-slider{
+    height: 80%;
+}
+.slick-slider button{
+    z-index: 200;
+    width: 30px;
+    height: 20px;
+}
+.slick-slider .slick-next{
+    right: 30px;
+}
+.slick-slider .slick-prev{
+    left: 30px;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 30px !important;
+    color: #242323 !important;
+    top: 50%;
+}

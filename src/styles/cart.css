@@ -1,0 +1,128 @@
+
+.cartContainer {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.mobDisappear{
+    margin-bottom: 260px;
+}
+.threeItemsCart{
+    margin-bottom: 300px;
+}
+.cartAddress{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+.cartItemsDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 47%;
+    justify-content: space-around;
+}
+.cartImg{
+    width: 200px;
+    margin: 20px 0;
+}
+.cartItem{
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #000;
+}
+.qtyChangeHold{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 70%;
+    background-color: #000;
+}
+/*--------------Subtotal-----------*/
+.subtotal{
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    font-size: 20px;
+    padding: 30px 30px 0;
+    width: 450px;
+    max-height: 500px;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+.subShip{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-bottom: 1px solid #000;
+
+}
+.gPayBtnHold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emptyCartMainParent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.paymentIconHold {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.featPicHold{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.featPicHold> img, .featPicHold>svg{
+    width: 60px;
+    height: 60px;
+}
+.faqParent{
+    width: 70vw;
+    margin:70px auto;
+    background-color: rebeccapurple;
+}
+.secretlyCheckout{
+    font-size: 25px;
+    text-align: center;
+    margin: 30px 0;
+}
+@media only screen and (max-width: 985px) {
+    .cartContainer {
+        gap: 50px;
+    }
+    
+}
+@media only screen and (max-width: 885px) {
+    .subtotal {
+        width: 350px;
+    }
+    .secretlyCheckout{
+        font-size: 20px;
+        margin: 50px 0 0;
+    }
+}
+@media only screen and (max-width: 730px) {
+    .cartContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+    .subtotal {
+        margin-top: 40px;
+    }
+    .threeItemsCart, .moreThan{
+        margin-bottom: 500px;
+    }
+    .secretlyCheckout{
+        font-size: 22px;
+    }
+}

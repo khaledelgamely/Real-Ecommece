@@ -1,0 +1,250 @@
+.singlePageMainPicHold {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.singleImgContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.upperMixPageMainPic{
+    display: flex;
+    gap: 30px;
+}
+.singlePageMainPic{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.underMixPageMainPic{
+    display: flex;
+    gap: 50px;
+}
+.lg{
+    width: 500px;
+    height: 500px;
+}
+.md{
+    width: 363px;
+    height: 270px;
+}
+.sm{
+    width: 250px;
+    height: 230px;
+}
+
+
+.sinLih {
+    width: 100vw;
+    line-height: 3rem;
+    padding: 10px 50px;
+    margin-bottom: 50px;
+}
+.bgGrey {
+    background-color: #f8f9fc;
+}
+/*-------------accordion----------------------*/
+.accordion{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;  
+}
+.SinglePageFAQ {
+    width: 100%;
+}
+.namePriceSP{
+    border-bottom: 2px solid #000;
+    width: 100%;
+}
+.spAddTOCart {
+    background-color: black;
+    width: 14rem;
+    color: white;
+    height: 3rem;
+    margin-top: 30px;
+    transition: all 400ms ease;
+}
+.spAddTOCart:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    transform: scale(1.08);
+}
+@media only screen and (max-width: 1200px) {
+    .singlePageMainPicHold {
+        gap: 30px;
+    }
+}
+@media only screen and (max-width: 1040px) {
+    .lg{
+        width: 400px;
+        height: 400px;
+    }
+    .md{
+        width: 285px;
+        height: 250px;
+    }
+    .sm{
+        width: 190px;
+        height: 190px;
+    }
+    .singlePageMainPic {
+        gap: 15px;
+  }
+}
+@media only screen and (max-width: 936px) {
+    .lg{
+        width: 300px;
+        height: 300px;
+    }
+    .md{
+        width: 220px;
+        height: 200px;
+    }
+    .sm{
+        width: 130px;
+        height: 140px;
+    }
+    .singlePageMainPic {
+        gap: 15px;
+  }
+  .underMixPageMainPic {
+    gap: 20px;
+}
+}
+@media only screen and (max-width: 660px) {
+    .lg{
+        width: 300px;
+        height: 300px;
+    }
+    .md{
+        width: 220px;
+        height: 200px;
+    }
+    .sm{
+        width: 130px;
+        height: 140px;
+    }
+    .singlePageMainPic {
+        gap: 15px;
+  }
+  .underMixPageMainPic {
+    gap: 20px;
+}
+.singlePageMainPicHold {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.SinglePageFAQ {
+    width: 125%;
+}
+}
+/*------------You May Also Like---------*/
+.youMay {
+    top: 28.5rem !important;
+    position: relative !important;
+}
+.autoPlay img{
+    width: 200px;
+}
+.youAlsoTitle{
+margin: 70px 0;
+font-weight: 600;
+font-size: 45px;
+text-align: center;
+}
+.revSize{
+    color: rgb(107 114 128);
+    font-weight: 700;
+    font-size: 50px;
+}
+.feelImg{
+    margin: auto;
+    width: 400px;
+}
+
+/*--------------- Review ------------*/
+
+.starHold2{
+    border-top: 2px solid #000;
+    width: 90%;
+    margin:auto ;
+}
+
+/*--------------- SearchBox ------------*/
+
+.searchBox-Component{
+    width: 80vw;
+    margin:0 auto 100px;
+}
+.keyWordHold{
+    display: flex;
+    gap: 35px;
+}
+.keyWord{
+    padding: 10px;
+    background-color: #E2E8F0;
+    cursor: pointer;
+}
+.highlightWord{
+    background-color: #eece69;
+}
+.keyWord p{
+    text-transform: uppercase;
+}
+.keyWord:hover{
+    background-color: #d3d6da;
+}
+.searchBox{
+    width: 30%;
+    padding:0 10px 0 0;
+    font-size: 22px;
+    margin: 15px 0;
+    border-bottom: 2px solid rgb(187, 187, 187);
+}
+.searchBox:focus{
+    outline: none;
+}
+.searchItemsHold{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.searchList {
+    max-width: 80%;
+    position: relative;
+}
+.firstLetterHold{
+    position: absolute;
+    background-color: #83b6ddc9;
+    left: -50px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+} 
+.searchList-heading{   
+    
+    font-weight: 600;
+    font-size: 18px;
+   color: rgb(107 114 128);
+}
+.keyWordHold{
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .firstLetterHold{
+        left: -33px;
+    } 
+
+  }
+

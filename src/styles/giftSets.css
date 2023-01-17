@@ -1,0 +1,31 @@
+.giftSets{
+    display: flex;
+    gap: 100px;
+}
+.category{
+    position: absolute;
+    top: 20px;
+    text-align: left;
+}
+.category-title{
+    font-weight: 800;
+    font-size: 25px;
+    position: relative;
+}
+.underline{
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #000000;
+    padding: 15px 0;
+}
+.underline:hover{
+    border-bottom: 3px solid #000;
+}
+.giftProducts{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    gap: 50px;
+}
